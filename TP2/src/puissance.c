@@ -5,9 +5,21 @@
 int puissance(int a,int b){
     int resultat = 1;
     int i=0;
-    for(i=0;i<b;i++){
-        resultat = resultat*a;
+    if (b != 0){
+
+        if (a != 0){
+            for(i=0;i<b;i++){
+                resultat = resultat*a;
+            }
+        }
+        else{
+            resultat=0;
+        }
     }
+    else{
+        resultat =1;
+    }
+
     
     return resultat;
 
