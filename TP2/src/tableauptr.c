@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 
 
 int main(){
+    srand(time(NULL));
     int taille = 10;
     int tb_entier[taille];
     float tb_float[taille];

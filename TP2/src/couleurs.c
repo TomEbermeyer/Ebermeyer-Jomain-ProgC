@@ -2,10 +2,10 @@
 
 
 struct RGBA {
-    char R;
-    char G;
-    char B;
-    char A;
+    int R;
+    int G;
+    int B;
+    int A;
 };
 
 int main() {
