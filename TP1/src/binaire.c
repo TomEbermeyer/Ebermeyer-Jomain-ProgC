@@ -10,12 +10,12 @@ int main() {
     int nombre;
     printf("Entrer le nomre a convertir :");
     scanf("%i",&nombre);
-    int taille=sizeof(nombre)*8; //taille en bits tenu par le nombre qui est un int
+    int taille=sizeof(nombre)*8; //taille en bits tenu par le nombre qui est un int : 32 bits
     int k =0;
-    int masque=1, //puissance de 2
+    int masque=1; //puissance de 2
     int res=0;
     int i=0;
-    for (k=taille;k>=0;k--){
+    for (k=taille-1;k>=0;k--){
         masque=1;  // Permet de réinitiliser 
         for (i=0;i<k;i++){
         masque=masque*2;

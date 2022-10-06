@@ -2,6 +2,6 @@
 
 
 int main() {
-printf("Bonjour le Monde !!!\n");
+printf("bonjour le monde !\n");
 return 0;
 }
