@@ -23,7 +23,8 @@ int main(){
     i=0;
     for(i=0;i<taille;i++){
         if (nombre == tableau[i]){
-            printf("Le nombre %d est dans le tableau à la position %d.\n ",nombre,i);
+            printf("\nentier présent\n\n");
+            break;
         }
     }
 
