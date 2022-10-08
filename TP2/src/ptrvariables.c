@@ -13,7 +13,7 @@ double doble;
 long double doblel;
 
 
-* &(car) = 't';
+* &(car) = 't';  // le & fait référence à l'adresse et l'étoile (*) devant permet de dire la valeure associé a l'adresse ...
 * &(court) = 12;
 * &(entier) = 38;
 * &(entierl) = 480000L;

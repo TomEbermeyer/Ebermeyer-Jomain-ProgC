@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <stdlib.h> //pour le rand
+#include <time.h> 
 
 
 int main(){
-    srand(time(NULL));
+    srand(time(NULL)); //permet de changer les valeurs aléatoires.
     int taille = 10;
     int tb_entier[taille];
     float tb_float[taille];
@@ -26,13 +26,13 @@ int main(){
 
 
 //On vérifie l'affichage.
-    printf("Affchage du tableau de int : \n");
+    printf("Affichage du tableau de int : \n");
     for(i=0;i<taille; i++){
         printf("%i, ",pt_int[i]);
     }
         printf("\n");    
         printf("=============================================================\n");
-    printf("Affchage du tableau de float : \n");
+    printf("Affichage du tableau de float : \n");
     for(i=0;i<taille; i++){    
         printf("%f, ",pt_float[i]);
     }

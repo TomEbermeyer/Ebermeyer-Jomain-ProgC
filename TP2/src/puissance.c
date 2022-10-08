@@ -12,7 +12,7 @@ int puissance(int a,int b){
                 resultat = resultat*a;
             }
         }
-        else{
+        else{  //On gère les différentes conditions
             resultat=0;
         }
     }
