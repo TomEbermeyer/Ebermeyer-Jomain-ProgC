@@ -2,33 +2,35 @@
 int main() {
     int num1 = 16;
     int num2 = 3;
-    char op = '+';
+    char op;
+    printf("\nChoisissez l'option d'opération (+,-,*,/,pourcent,&,|) :");
+    scanf("%c",&op);
 
     
     switch(op){
         case '+' :
-            printf("\nnum1+num2 = %d\n", num1+num2);
+            printf("num1+num2 = %d\n\n", num1+num2);
             break;
         case '-' :
-            printf("num1-num2 = %d\n", num1-num2);
+            printf("num1-num2 = %d\n\n", num1-num2);
             break;
         case '*' :
-            printf("num1*num2 = %d\n", num1*num2);
+            printf("num1*num2 = %d\n\n", num1*num2);
             break;
         case '/' :
-            printf("num1/num2 = %d\n", num1/num2);
+            printf("num1/num2 = %d\n\n", num1/num2);
             break;
         case '%' :
-            printf("num1 modulo num2 = %d\n", num1%num2);
+            printf("num1 modulo num2 = %d\n\n", num1%num2);
             break;
         case '&' :
-            printf("num1&num2 = %d\n", num1&&num2);
+            printf("num1&num2 = %d\n\n", num1&&num2);
             break;
         case '|' :
-            printf("num1|num2 = %d\n", num1||num2);
+            printf("num1|num2 = %d\n\n", num1||num2);
             break;
         case '~' :
-            printf("~num1 = %d\n", !num1);
+            printf("~num1 = %d\n\n", !num1);
             break;
     }
     return 0;
