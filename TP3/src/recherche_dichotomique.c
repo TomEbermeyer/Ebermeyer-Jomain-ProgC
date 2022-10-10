@@ -63,6 +63,7 @@ int main(){
     int milieu = tableau[taille/2];
 
     //a = (int)4.5 exemple de partie entière 
+    // Algo de la page wikipédia https://fr.wikipedia.org/wiki/Recherche_dichotomique
 
     while (trouver != 1 & debut<=fin){
         milieu = (int)((debut+fin)/2);

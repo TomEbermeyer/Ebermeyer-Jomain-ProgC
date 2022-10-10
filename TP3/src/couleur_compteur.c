@@ -9,7 +9,7 @@ struct RGBA {
     int G;
     int B;
     int A;
-    int C;
+    int C; //compteur pour chaque couleur
 };
 
 int main() {
